@@ -2,7 +2,7 @@ body {
     text-align: center;
     margin: 200px;
     padding: 100px;
-    border: 10px solid black;
+    border: 1px solid black;
     box-shadow: 10px 10px 10px gray;
 }
 
@@ -12,7 +12,7 @@ body {
     width: 100px;
     margin: 20px;
     padding: 10px;
-    border: 10px solid black;
+    border: 1px solid black;
     box-shadow: 10px 10px 10px gray;
 }
 
@@ -22,6 +22,12 @@ body {
     width: 100px;
     margin: 20px;
     padding: 10px;
-    border: 10px solid black;
+    border: 1px solid black;
+    border-radius: 20px 0px 20px 0px;
     box-shadow: 10px 10px 10px gray;
+}
+
+#pond {
+    display: flex;
+    justify-content: flex-end;
 }
