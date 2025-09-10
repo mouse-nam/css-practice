@@ -1,4 +1,7 @@
 body {
     text-align: center;
+    margin: 200px;
+    padding: 100px;
     border: 10px solid black;
+    box-shadow: 10px 10px 10px gray;
 }
